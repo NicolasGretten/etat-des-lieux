@@ -1,4 +1,4 @@
-#Exercice 6 Webservice
+# Exercice 6 Webservice
 
 Pour cet exercice j'ai utilisé laravel pour faire l'api et le front
 
@@ -17,10 +17,10 @@ php artisan serve
 
 ## Url
 
-###api:
+### api:
 
 /api/etat-des-lieux
 
-###front:
+### front:
 
 /etat-des-lieux
