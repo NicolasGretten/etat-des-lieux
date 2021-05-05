@@ -14,3 +14,13 @@ php artisan migrate:fresh --seed
 ````bash
 php artisan serve
 ````
+
+## Url
+
+###api:
+
+/api/etat-des-lieux
+
+###front:
+
+/etat-des-lieux
