@@ -28,7 +28,7 @@ class EtatDesLieuxSeeder extends Seeder
                 'ville_id'          => random_int(1,5),
                 'nbPieces'          => random_int(1,5),
                 'surface'           => random_int(20,250),
-                'photo'             => 'photo7721.jpg',
+                'photo'             => 'photo7722.jpg',
                 'created_at'        => Carbon::now(),
                 'updated_at'        => Carbon::now()
             ]);
