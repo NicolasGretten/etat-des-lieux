@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\EtatDesLieuxController;
+use App\Http\Controllers\SearchController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -26,4 +27,9 @@ Route::prefix('/etat-des-lieux')->group(function () {
     Route::patch('/{id}', [EtatDesLieuxController::class, 'update']);
     Route::delete('/{id}', [EtatDesLieuxController::class, 'delete']);
 });
+
+Route::get('/search', [SearchController::class, 'search']);
+
+
+
 

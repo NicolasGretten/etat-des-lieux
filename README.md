@@ -20,6 +20,7 @@ php artisan serve
 ### api:
 
 /api/etat-des-lieux
+/api/search
 
 ### front:
 

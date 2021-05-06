@@ -69,6 +69,11 @@ class EtatDesLieuxController extends Controller
             ]);
 
             $path = Storage::putFileAs('photos', new File($request->photo), 'photo'. random_int(00,10000).'.jpg');
+//            $file = new File($request->photo);
+//            $file = base64_encode($request->photo);
+//            $path = Storage::putFileAs('photos', $file, 'photo'. random_int(00,10000).'.jpg');
+
+//            $path = Storage::put('photo'. random_int(00,10000).'.jpg', $file);
 
             $edl = new EtatDesLieux();
             $edl->titre = $request->titre;
